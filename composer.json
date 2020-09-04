@@ -3,7 +3,7 @@
   "description": "Yii2 Carbon Timestamps Behavior",
   "type": "library",
   "require": {
-    "php": ">=7.2",
+    "php": ">=7.3",
     "yiisoft/yii2": "^2.0.15",
     "nesbot/carbon": "^1.36 | ^2.0"
   },
