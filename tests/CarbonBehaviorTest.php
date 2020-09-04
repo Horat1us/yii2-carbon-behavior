@@ -1,6 +1,4 @@
-<?php
-
-declare(strict_types=1);
+<?php declare(strict_types=1);
 
 namespace Horat1us\Yii\Tests;
 
@@ -9,15 +7,11 @@ use PHPUnit\Framework\TestCase;
 use Horat1us\Yii\CarbonBehavior;
 use yii\db;
 
-/**
- * Class CarbonBehaviorTest
- * @package Horat1us\Yii\Tests
- */
 class CarbonBehaviorTest extends TestCase
 {
     public const TEST_TIME = '2019-03-19 02:10:21';
 
-    public function testSetMockValues()
+    public function testSetMockValues(): void
     {
         $record = new class extends db\ActiveRecord
         {
