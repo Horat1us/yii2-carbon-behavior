@@ -1,5 +1,5 @@
 # Yii2 Carbon Behavior
-[![Build Status](https://travis-ci.org/Horat1us/yii2-carbon-behavior.svg?branch=master)](https://travis-ci.org/Horat1us/yii2-carbon-behavior)
+
 [![codecov](https://codecov.io/gh/Horat1us/yii2-carbon-behavior/branch/master/graph/badge.svg)](https://codecov.io/gh/Horat1us/yii2-carbon-behavior)
 
 Behavior to generate timestamps (created_at, updated_at etc.) using 
