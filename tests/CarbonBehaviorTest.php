@@ -1,4 +1,6 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 namespace Horat1us\Yii\Tests;
 
@@ -22,7 +24,7 @@ class CarbonBehaviorTest extends TestCase
             public $updated_at;
         };
 
-        $behavior = new CarbonBehavior;
+        $behavior = new CarbonBehavior();
         $behavior->attach($record);
 
         Carbon::setTestNow(Carbon::parse(static::TEST_TIME));
