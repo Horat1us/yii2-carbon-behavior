@@ -13,7 +13,7 @@ Used in real projects with MySQL and PostgreSQL.
 ## Installation
 Using [packagist.org](https://packagist.org/packages/horat1us/yii2-carbon-behavior):
 ```bash
-composer require horat1us/yii2-carbon-behavior:^1.2
+composer require horat1us/yii2-carbon-behavior:^1.3
 ```
 
 ## Usage
