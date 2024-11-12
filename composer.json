@@ -3,8 +3,8 @@
   "description": "Yii2 Carbon Timestamps Behavior",
   "type": "library",
   "require": {
-    "php": ">=7.4",
-    "nesbot/carbon": "^1.36 | ^2.0",
+    "php": "^8.1",
+    "nesbot/carbon": "^2.0 | ^3.0",
     "yiisoft/yii2": "^2.0.47"
   },
   "require-dev": {
@@ -24,7 +24,7 @@
     "process-timeout": 1800,
     "sort-packages": true,
     "platform": {
-      "php": "7.4"
+      "php": "8.1"
     },
     "allow-plugins": {
       "yiisoft/yii2-composer": true

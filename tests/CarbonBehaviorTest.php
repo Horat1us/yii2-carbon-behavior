@@ -15,13 +15,10 @@ class CarbonBehaviorTest extends TestCase
 
     public function testSetMockValues(): void
     {
-        $record = new class extends db\ActiveRecord
-        {
-            /** @var string|null */
-            public $created_at;
+        $record = new class extends db\ActiveRecord {
+            public ?string $created_at = null;
 
-            /** @var string|null */
-            public $updated_at;
+            public ?string $updated_at = null;
         };
 
         $behavior = new CarbonBehavior();
@@ -38,13 +35,10 @@ class CarbonBehaviorTest extends TestCase
 
     public function testSetValueFromProperty(): void
     {
-        $record = new class extends db\ActiveRecord
-        {
-            /** @var string|null */
-            public $created_at;
+        $record = new class extends db\ActiveRecord {
+            public ?string $created_at = null;
 
-            /** @var string|null */
-            public $updated_at;
+            public ?string $updated_at = null;
         };
 
         $behavior = new CarbonBehavior([
