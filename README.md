@@ -10,6 +10,8 @@ is ability to mock this values without tricks (using `Carbon::setTestNow()`).
 
 Used in real projects with MySQL and PostgreSQL.
 
+Compatibility: tested on PHP 8.4, PHP 8.5
+
 ## Installation
 Using [packagist.org](https://packagist.org/packages/horat1us/yii2-carbon-behavior):
 ```bash
